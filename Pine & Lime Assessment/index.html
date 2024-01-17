@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Dynamic Template</title>
+</head>
+<body>
+    <div class="container">
+        <div class="map">
+            <img src="test-image.png" alt="Map">
+        </div>
+        <div class="dynamic-content">
+            <h2>Date: <span id="date"></span></h2>
+            <h2>Latitude: <span id="latitude"></span></h2>
+            <h2>Longitude: <span id="longitude"></span></h2>
+            <h2>Title: <span id="title"></span></h2>
+            <p id="description"></p>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/4.2.0/mustache.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
